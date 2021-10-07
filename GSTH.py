@@ -1,4 +1,3 @@
-import scipy.sparse as sp
 from os import listdir
 
 import numpy as np
@@ -12,9 +11,7 @@ from gtda.plotting import plot_diagram
 
 
 import scipy.io as sio
-from collections import Counter
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import phate
 
 
